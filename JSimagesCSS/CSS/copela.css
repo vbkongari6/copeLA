@@ -1,0 +1,154 @@
+*{ box-sizing: border-box; }
+body{ font-family: "cambria", serif; }
+#title{ background-color: maroon; text-align: center; color:white; }
+#bmwi82{ display: none; }
+#bmwi83{ display: none; }
+#bmwi84{ display: none; }
+::-webkit-input-placeholder { /*chrome*/ color: maroon; }
+::-moz-placeholder {  /* Firefox 19+ */ color: maroon; }
+#logincart li a:hover{ background-color: white; color:maroon; }
+#logincart li li a{ text-decoration: underline; }
+#logincart ul ul{ position:absolute; visibility: hidden; top:30px; }
+#logincart li:hover > ul{ visibility: visible; }
+#editcheckout:hover{ background-color: maroon; color: white; }
+#proceedcheckout:hover{ background-color: maroon; color: white; }
+#shopnow input{ padding: 5px; color: maroon; border-radius: 3px; background-color: white; }
+#customerlogininfo input[type="submit"]{ width:100px; }
+#customerlogininfo a{ color: maroon; display: block; }
+#custcreditcardvalidthrumonth { text-align: center; }
+#custcreditcardvalidthruyear { text-align: center; }
+#customerregisterinfo input[type="submit"]{ width:100px; }
+#error{ color: red; }
+#shipequalbilladdress{ text-decoration: underline; }
+#proceedtocheckout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 145px; }
+#proceedtocheckout:hover{ background-color: maroon; color: white; }
+#addtocart{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 145px; }
+#addtocart:hover{ background-color: maroon; color: white; }
+#checkout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 145px; }
+#checkout:hover{ background-color: maroon; color: white; }
+.del{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 3px; width:90px }
+.del:hover{ background-color: red; color: white; }
+#ordpro{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 3px; width:120px }
+#ordpro:hover{ background-color: maroon; color: white; }
+#editmyprofile{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 3px; width:120px }
+#editmyprofile:hover{ background-color: maroon; color: white; }
+#custregformsubmit{ display: block; background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 3px; width:120px }
+#custregformsubmit:hover{ background-color: maroon; color: white; }
+#submitcustlogin { background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 3px; width:120px }
+#submitcustlogin:hover{ background-color: maroon; color: white; }
+
+
+@media screen and (max-width: 450px) {
+    #title label{ font-size: 2em; }    
+    #searchcart{ background-color: maroon; height: 56px;}
+    #imggs img{ height:140; width:100%; }
+    #fieldsetautowidth { display: inline-block; padding:5px; }
+    #inmychoice br {display: none;}
+    #i81 img{ width:60; height:40;}
+    #i82 img{ width:60; height:40;}
+    #i83 img{ width:60; height:40;}
+    #i84 img{ width:60; height:40;}
+    #bmwi81 img{ width:100%; height:auto; }
+	#bmwi82 img{ width:100%; height:auto; }
+	#bmwi83 img{ width:100%; height:auto; }
+	#bmwi84 img{ width:100%; height:auto; }
+	#search { height:26px; text-align: center}
+	#shopnow p{ position: absolute; right:2%; top:186px; }
+	.towhite{ color:white; }
+	#changeattraction p{ position: absolute; left:50px; top:100px; }
+	#search select{ padding-top: 3px; padding-bottom: 3px; color: maroon; background-color: white;}
+	#search input[type="text"]{ padding-top: 2.5px; padding-bottom: 2.0px; color:maroon; width: 120px}
+	#search input[type="submit"]{ font-size: 0.8em; padding-bottom:2.5px; background-color: white; color:maroon;}
+	#logincart *{ margin: 0; padding: 0; display: inline; }/**/
+	#logincart li{ position: relative; list-style: none; float: right;}
+	#logincart li a{ width: 115px; background-color: maroon; color:white; text-decoration: none; display: block; line-height: 30px;	text-align: center;}
+	#sortby {display:none;}
+	#cart fieldset{ font-size: 0.8em; background-color: white; text-align: center; }
+	#editcheckout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 111px; }
+	#proceedcheckout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 111px; }
+	#customerlogininfo td{ padding: 2px; }
+	#customerlogininfo input{ color:maroon; padding:3;}
+	#customerregisterinfo input{ color:maroon; padding: 3px; text-align: center; }
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px){
+    #title label{ font-size: 2.2em; }
+    #title sup{ font-size: 1em; }
+    #searchcart{ background-color: maroon; height: 30px;}
+    #imggs img{ height:210; width:100%; }
+    #fieldsetautowidth { display: inline-block; padding:5px; }
+    #i81 img{ width:75; height:50;}
+    #i82 img{ width:75; height:50;}
+    #i83 img{ width:75; height:50;}
+    #i84 img{ width:75; height:50;}
+    #sortby {display:none;}
+    #bmwi81 img{ width:320px; height:212; }
+	#bmwi82 img{ width:320px; height:212; }
+	#bmwi83 img{ width:320px; height:212; }
+	#bmwi84 img{ width:320px; height:212; }
+	#tdp{width:300px;}
+	#search { height:26px; float: left;}
+	#shopnow p{ position: absolute; right:2%; top:200px; }	
+	.towhite{ color:white; }
+	#changeattraction p{ position: absolute; right:100px; top:100px; }
+	#search select{ padding-top: 3px; padding-bottom: 2px; color: maroon; background-color: white;}
+	#search input[type="text"]{ padding-top: 3.0px; padding-bottom: 2.3px; color:maroon;}
+	#search input[type="submit"]{ font-size: 0.83em; background-color: white; color:maroon;}
+	#logincart *{ margin: 0; padding: 0; display: inline; }
+	#logincart li{ position: relative; list-style: none; float: right; }
+	#logincart li a{ width: 117px; background-color: maroon; color:white; text-decoration: none; display: block; line-height: 30px; text-align: center; }	
+	#cart fieldset{ font-size: 0.8em; background-color: white; text-align: center; }
+	#editcheckout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 111px; }
+	#proceedcheckout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 111px; }
+	#customerlogininfo td{ padding: 3px; }
+	#customerlogininfo input{ color:maroon; padding: 3px; }
+	#customerregisterinfo td{ padding: 5px; }
+	#customerregisterinfo input{ color:maroon; padding: 3px; text-align: center; }
+}
+
+@media screen  and (min-width: 1000px) {
+	/* title */
+	#title label{ font-size: 3em; } /**/
+	#title sup{ font-size: 1.5em; }
+	#i81 img{ width:90; height:60;}
+	#i82 img{ width:90; height:60;}
+	#i83 img{ width:90; height:60;}
+	#i84 img{ width:90; height:60;}
+	#bmwi81 img{ width:400px; height:252.4; }
+	#bmwi82 img{ width:400px; height:252.4; }
+	#bmwi83 img{ width:400px; height:252.4; }
+	#bmwi84 img{ width:400px; height:252.4; }
+	#searchcart{ background-color: maroon; height: 30px; display:block;}
+	#imggs img{ height:300; width:100%; }
+	#tdp{width:300px;}
+	#search{ float: left; padding-left: 20px; height: 30px;}
+	#search select{ padding-top: 5px; padding-bottom: 2px; color: maroon; background-color: white;}
+	#search input[type="text"]{ padding-top: 5.5px;  color:maroon;}
+	#search input[type="submit"]{ font-size: 0.9em; background-color: white;  color:maroon;}
+	#logincart *{ margin: 0; padding: 0; display: inline; }
+	#logincart li{ position: relative; list-style: none; float: right; }
+	#logincart li a{ width: 180px; background-color: maroon; color:white; text-decoration: none; display: block; line-height: 30px;	text-align: center; }
+	
+	#cart fieldset{ font-size: 0.8em; background-color: white; text-align: center; }
+
+	#close{ float:right; background-color: white; color:maroon; }
+	#editcheckout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 145px; }
+	#proceedcheckout{ background-color: wheat; color:maroon; border-radius:7px; text-decoration: underline; padding: 5px; width: 145px; }
+	#changeattraction p{ position: absolute; right:360px; top:345px; }
+
+	.towhite{ color:white; }
+	#shopnow p{ position: absolute; right:1%; top:280px; }
+
+	#ss1{ float: left; }
+
+	#ss2{ float: left; }
+
+	#customerlogininfo{ color:maroon; padding-top: 5%; }
+	#fieldsetautowidth { display: inline-block; padding:20px; }
+	#customerlogininfo td{ padding: 5px; }
+	#customerlogininfo input{ color:maroon; padding: 5px; }
+
+	#customerregisterinfo{ color:maroon; }
+	#customerregisterinfo td{ padding: 5px; }
+	#customerregisterinfo input{ color:maroon; padding: 3px; text-align: center; }
+}
